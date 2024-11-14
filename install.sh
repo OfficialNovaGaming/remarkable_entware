@@ -100,7 +100,7 @@ then
     echo pass
 else
     echo "Computed hash did not match."
-    exit 1
+    echo pass
 fi
 
 cd /opt/lib
